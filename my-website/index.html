@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aman Kumar Shrivastava — Portfolio</title>
+  <meta name="description" content="Portfolio of Aman Kumar Shrivastava — B.Tech CSE (AI & ML) student at DIT University. Aspiring AI/ML engineer." />
+  <meta name="author" content="Aman Kumar Shrivastava" />
+
+  <meta property="og:title" content="Aman Kumar Shrivastava — Portfolio" />
+  <meta property="og:description" content="B.Tech CSE (AI & ML) · DIT University · CGPA 8.5" />
+  <meta property="og:type" content="website" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Toast -->
+  <div id="toast" role="status" aria-live="polite">Message sent — I'll get back to you soon.</div>
+
+  <!-- ══════════════ NAVBAR ══════════════ -->
+  <nav id="navbar" role="navigation" aria-label="Main navigation">
+    <a href="#hero" class="nav-logo">Aman</a>
+
+    <ul id="nav-menu">
+      <li><a href="#about"        class="nav-link">About</a></li>
+      <li><a href="#skills"       class="nav-link">Skills</a></li>
+      <li><a href="#projects"     class="nav-link">Projects</a></li>
+      <li><a href="#experience"   class="nav-link">Experience</a></li>
+      <li><a href="#events"       class="nav-link">Events</a></li>
+      <li><a href="#certificates" class="nav-link">Certificates</a></li>
+      <li><a href="#contact"      class="nav-link">Contact</a></li>
+    </ul>
+
+    <div class="nav-actions">
+      <button id="theme-toggle" aria-label="Toggle theme">Light</button>
+      <button id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ══════════════ HERO ══════════════ -->
+  <section id="hero">
+    <div class="hero-inner">
+
+      <!-- Left: Text -->
+      <div class="hero-left">
+        <h1 class="hero-name">Aman Kumar<br>Shrivastava</h1>
+
+        <div class="hero-typing">
+          <span id="typing-text"></span>
+          <span class="typing-cursor" aria-hidden="true"></span>
+        </div>
+
+        <p class="hero-desc">
+          B.Tech Computer Science Engineering student at DIT University, specialising in
+          <strong>Artificial Intelligence and Machine Learning</strong>.
+          Focused on building practical systems and growing into a high-impact software engineer.
+        </p>
+
+        <div class="hero-cta">
+          <!-- Replace resume.pdf with your actual resume file placed in this folder -->
+          <a href="resume.pdf" download class="btn btn-primary">Download Resume</a>
+          <a href="#projects" class="btn btn-outline">View Projects</a>
+        </div>
+      </div>
+
+      <!-- Right: Profile Card (central visual anchor) -->
+      <div class="hero-right">
+        <div class="profile-card">
+          <div class="profile-avatar">AKS</div>
+
+          <p class="profile-name">Aman Kumar Shrivastava</p>
+          <p class="profile-role">B.Tech CSE (AI &amp; ML)<br>DIT University, Dehradun</p>
+
+          <div class="profile-divider"></div>
+
+          <div class="profile-stats">
+            <div class="stat">
+              <span class="stat-value">8.5</span>
+              <span class="stat-label">CGPA</span>
+            </div>
+            <div class="stat">
+              <span class="stat-value">50+</span>
+              <span class="stat-label">LeetCode</span>
+            </div>
+            <div class="stat">
+              <span class="stat-value">6</span>
+              <span class="stat-label">Projects</span>
+            </div>
+          </div>
+
+          <div class="profile-social">
+            <a href="https://github.com/Aman-Kumar-Shrivastava" target="_blank" rel="noopener" aria-label="GitHub">GH</a>
+            <a href="https://www.linkedin.com/in/aman-shrivastava-9267a8364" target="_blank" rel="noopener" aria-label="LinkedIn">LI</a>
+            <a href="https://leetcode.com/u/Aman_shrivastava007/" target="_blank" rel="noopener" aria-label="LeetCode">LC</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ══════════════ ABOUT ══════════════ -->
+  <section id="about">
+    <div class="section-header reveal">
+      <h2>About Me</h2>
+      <p>Background, education, and what drives me.</p>
+    </div>
+
+    <div class="about-grid">
+      <div class="about-text reveal delay-1">
+        <p>
+          I'm a <strong>Computer Science Engineering</strong> student at DIT University,
+          Dehradun with a focus on Artificial Intelligence and Machine Learning.
+          Currently in my second year, maintaining a CGPA of 8.5.
+        </p>
+        <p>
+          I enjoy building things — from structured console applications in C to
+          interactive web projects in JavaScript. My long-term goal is to work as a
+          <strong>professional AI/ML engineer</strong>, solving real problems with
+          intelligent systems.
+        </p>
+        <p>
+          Outside coursework, I actively participate in hackathons, competitive
+          programming on LeetCode, and tech club activities.
+        </p>
+
+        <div class="soft-skills">
+          <span class="soft-skill">Problem Solving</span>
+          <span class="soft-skill">Logical Thinking</span>
+          <span class="soft-skill">Teamwork</span>
+          <span class="soft-skill">Communication</span>
+          <span class="soft-skill">Time Management</span>
+          <span class="soft-skill">Adaptability</span>
+        </div>
+      </div>
+
+      <div class="edu-cards reveal delay-2">
+        <div class="edu-card">
+          <h4>B.Tech — CSE (AI &amp; ML)</h4>
+          <p>DIT University, Dehradun</p>
+          <p class="edu-meta">2023 – Present &nbsp;·&nbsp; CGPA 8.5</p>
+        </div>
+        <div class="edu-card">
+          <h4>Class XII — PCM</h4>
+          <p>Jim Corbett Senior Secondary School</p>
+          <p class="edu-meta">2023 – 2025</p>
+        </div>
+        <div class="edu-card">
+          <h4>Class X</h4>
+          <p>BLM Academy</p>
+          <p class="edu-meta">Completed 2023</p>
+        </div>
+        <div class="edu-card" style="border-left-color: var(--accent-purple);">
+          <h4>Contact</h4>
+          <p>amanshrivastava185@gmail.com</p>
+          <p class="edu-meta">Dehradun, Uttarakhand, India</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════ SKILLS ══════════════ -->
+  <section id="skills">
+    <div class="section-header reveal">
+      <h2>Skills</h2>
+      <p>Technologies and tools I work with.</p>
+    </div>
+    <!--
+      To add or edit skills: open data.js → update the `skills` array.
+      No HTML changes needed here.
+    -->
+    <div id="skills-container"></div>
+  </section>
+
+  <!-- ══════════════ PROJECTS ══════════════ -->
+  <section id="projects">
+    <div class="section-header reveal">
+      <h2>Projects</h2>
+      <p>Things I've built — use the filters to browse by technology.</p>
+    </div>
+
+    <!-- Filter buttons are generated from tech stacks in data.js -->
+    <div id="filter-btns" role="group" aria-label="Filter projects"></div>
+
+    <!--
+      To add a project: open data.js → push a new object to `projects`.
+      Cards appear here automatically.
+    -->
+    <div id="projects-grid"></div>
+  </section>
+
+  <!-- ══════════════ EXPERIENCE ══════════════ -->
+  <section id="experience">
+    <div class="section-header reveal">
+      <h2>Experience</h2>
+      <p>Clubs, roles, and hands-on involvement.</p>
+    </div>
+    <!--
+      To add experience: open data.js → push to `experience`.
+    -->
+    <div id="experience-timeline"></div>
+  </section>
+
+  <!-- ══════════════ EVENTS ══════════════ -->
+  <section id="events">
+    <div class="section-header reveal">
+      <h2>Events</h2>
+      <p>Competitions and workshops I have participated in.</p>
+    </div>
+    <!--
+      To add events: open data.js → push to `events`.
+    -->
+    <div id="events-grid"></div>
+  </section>
+
+  <!-- ══════════════ CERTIFICATES & ACHIEVEMENTS ══════════════ -->
+  <section id="certificates">
+    <div class="section-header reveal">
+      <h2>Certificates &amp; Achievements</h2>
+      <p>Courses completed and milestones reached.</p>
+    </div>
+
+    <!--
+      To add certificates: open data.js → push to `certificates`.
+      To add achievements: open data.js → push to `achievements`.
+    -->
+    <div id="certs-grid"></div>
+    <div id="achievements-grid"></div>
+  </section>
+
+  <!-- ══════════════ CONTACT ══════════════ -->
+  <section id="contact">
+    <div class="section-header reveal">
+      <h2>Get in Touch</h2>
+      <p>Open to opportunities, collaborations, and conversations.</p>
+    </div>
+
+    <div class="contact-grid">
+      <div class="contact-info reveal delay-1">
+        <h3>Let's Connect</h3>
+        <p>
+          If you have an internship opportunity, a project idea, or just want to
+          talk tech — feel free to reach out. I respond to all messages.
+        </p>
+
+        <div class="contact-social">
+          <a href="https://www.linkedin.com/in/aman-shrivastava-9267a8364" target="_blank" rel="noopener" class="social-link">
+            <span class="social-label">LinkedIn</span>
+            <span class="social-handle">aman-shrivastava-9267a8364</span>
+          </a>
+          <a href="https://github.com/Aman-Kumar-Shrivastava" target="_blank" rel="noopener" class="social-link">
+            <span class="social-label">GitHub</span>
+            <span class="social-handle">Aman-Kumar-Shrivastava</span>
+          </a>
+          <a href="https://leetcode.com/u/Aman_shrivastava007/" target="_blank" rel="noopener" class="social-link">
+            <span class="social-label">LeetCode</span>
+            <span class="social-handle">Aman_shrivastava007</span>
+          </a>
+          <a href="mailto:amanshrivastava185@gmail.com" class="social-link">
+            <span class="social-label">Email</span>
+            <span class="social-handle">amanshrivastava185@gmail.com</span>
+          </a>
+          <a href="tel:+917417449521" class="social-link">
+            <span class="social-label">Phone</span>
+            <span class="social-handle">+91 74174 49521</span>
+          </a>
+        </div>
+      </div>
+
+      <form id="contact-form" class="contact-form reveal delay-2" novalidate>
+        <div class="form-group">
+          <label for="f-name">Name</label>
+          <input type="text" id="f-name" name="name" placeholder="Your name" required autocomplete="name" />
+        </div>
+        <div class="form-group">
+          <label for="f-email">Email</label>
+          <input type="email" id="f-email" name="email" placeholder="you@example.com" required autocomplete="email" />
+        </div>
+        <div class="form-group">
+          <label for="f-subject">Subject</label>
+          <input type="text" id="f-subject" name="subject" placeholder="What's this about?" required />
+        </div>
+        <div class="form-group">
+          <label for="f-message">Message</label>
+          <textarea id="f-message" name="message" rows="5" placeholder="Your message..." required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- ══════════════ FOOTER ══════════════ -->
+  <footer>
+    <nav class="footer-links" aria-label="Footer navigation">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#events">Events</a>
+      <a href="#certificates">Certificates</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <p>Built by <strong>Aman Kumar Shrivastava</strong> &copy; 2026</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
