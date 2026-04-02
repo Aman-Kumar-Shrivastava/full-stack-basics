@@ -127,55 +127,64 @@ const certificates = [
     title: "Deloitte Virtual Internship",
     issuer: "Deloitte (via Forage)",
     date: "2025",
-    image: "images/cert-deloitte.webp"
+    image: "certi.webp/udmxiyHeqYQLkTPvf_9PBTqmSxAf6zZTseP_69be7bc5b9e7af298789d64e_1774094868237_completion_certificate.webp",
+    link: "certi.webp/deloitte_completion_certificate.jpg"
   },
   {
     title: "Generative AI",
     issuer: "Online Certification",
     date: "2025",
-    image: "images/cert-genai.webp"
+    image: "certi.webp/Aman_Shrivastava_Certificate.webp",
+    link: "https://www.outskill.com/Outskill-Certificate.webp"
   },
   {
     title: "AI Detection",
     issuer: "Online Certification",
     date: "2024",
-    image: "images/cert-aidetect.webp"
+    image: "images/Critical Thinking in the AI Era (1).webp",
+    link: ""
   },
   {
     title: "freeCodeCamp — Responsive Web Design",
     issuer: "freeCodeCamp",
     date: "2024",
-    image: "images/cert-fcc.webp"
+    image: "images/cert-fcc.webp",
+    link: ""
   },
   {
     title: "Kali Linux",
     issuer: "Online Certification",
     date: "2024",
-    image: "images/cert-kali.webp"
+    image: "certi.webp/9905859_10198087_1772363174612 (1).webp",
+    link: "https://drive.google.com/drive/u/0/folders/1icX2IsiYUhysahzx0eEoKQr_3IjYXQMo"
   },
   {
     title: "Git & GitHub",
     issuer: "Online Certification",
     date: "2024",
-    image: "images/cert-git.webp"
+    image: "images/cert-git.webp",
+    link: ""
   },
   {
     title: "Introduction to AI & Machine Learning",
     issuer: "Online Certification",
     date: "2024",
-    image: "images/cert-introai.webp"
+    image: "certi.webp/WhatsApp Image 2026-03-29 at 00.49.42.jpeg",
+    link: ""
   },
   {
     title: "Idea Presentation — Participation",
     issuer: "DEAL, DRDO",
     date: "2024",
-    image: "images/cert-drdo.webp"
+    image: "certi.webp/WhatsApp Image 2026-03-29 at 00.10.38.webp",
+    link: ""
   },
   {
     title: "1st Rank — Hackathon",
     issuer: "CodeGenX, DIT University",
     date: "2026",
-    image: "images/cert-hackathon.webp"
+    image: "certi.webp/WhatsApp Image 2026-03-29 at 00.10.37.webp",
+    link: ""
   }
 ];
 
@@ -423,6 +432,7 @@ function renderCertificates() {
         <h3>${cert.title}</h3>
         <span class="cert-date">${cert.date}</span>
       </div>
+      ${cert.link ? `<a href="${cert.link}" target="_blank" rel="noopener" class="cert-link-overlay" aria-label="View ${cert.title}"></a>` : ''}
     </div>
   `).join("");
   container.querySelectorAll(".reveal").forEach(el => revealObserver.observe(el));

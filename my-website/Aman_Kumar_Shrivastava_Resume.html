@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aman Kumar Shrivastava - Resume</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Times New Roman', 'Georgia', serif;
+            color: #111;
+            background: #d5d5d5;
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .page {
+            width: 8.5in;
+            height: 11in;
+            background: white;
+            margin: 0 auto;
+            padding: 0.4in;
+            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+            font-size: 10px;
+            line-height: 1.35;
+        }
+
+        /* ── HEADER ── */
+        .header {
+            margin-bottom: 10px;
+        }
+
+        .header h1 {
+            font-size: 24px;
+            font-weight: 700;
+            color: #000;
+            margin-bottom: 2px;
+        }
+
+        .header-contact {
+            font-size: 10px;
+            color: #111;
+            line-height: 1.6;
+        }
+
+        .header-contact a {
+            color: #000;
+            text-decoration: none;
+        }
+
+        .header-contact .label {
+            font-weight: 700;
+        }
+
+        .availability {
+            display: inline-block;
+            margin-top: 2px;
+            font-weight: 700;
+            font-size: 10px;
+            color: #111;
+            font-style: italic;
+        }
+
+        /* ── SECTIONS ── */
+        .section {
+            margin-bottom: 9px;
+        }
+
+        .section-title {
+            font-size: 12px;
+            font-weight: 400;
+            font-variant: small-caps;
+            letter-spacing: 1px;
+            color: #000;
+            border-bottom: 0.8px solid #000;
+            padding-bottom: 2px;
+            margin-bottom: 6px;
+        }
+
+        /* ── ENTRIES ── */
+        .entry {
+            margin-bottom: 6px;
+        }
+
+        .entry-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+        }
+
+        .entry-title {
+            font-weight: 700;
+            font-size: 10.5px;
+            color: #000;
+        }
+
+        .entry-right {
+            font-size: 10px;
+            color: #111;
+            text-align: right;
+            white-space: nowrap;
+            margin-left: 10px;
+        }
+
+        .entry-subtitle {
+            font-style: italic;
+            font-size: 10px;
+            color: #222;
+        }
+
+        /* ── BULLETS ── */
+        ul.bullets {
+            margin-left: 16px;
+            margin-top: 2px;
+        }
+
+        ul.bullets li {
+            list-style-type: disc;
+            margin-bottom: 2.5px;
+            font-size: 10px;
+            line-height: 1.38;
+            color: #111;
+        }
+
+        /* ── SKILLS GRID ── */
+        .skills-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 3px 25px;
+            font-size: 10px;
+        }
+
+        .skill-row {
+            margin-bottom: 1px;
+            line-height: 1.4;
+        }
+
+        .skill-row strong {
+            color: #000;
+        }
+
+        /* ── CERT LIST ── */
+        .cert-block {
+            font-size: 10px;
+            line-height: 1.45;
+        }
+
+        /* ── PRINT ── */
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+                display: block;
+            }
+
+            .page {
+                box-shadow: none;
+                margin: 0;
+                padding: 0;
+                width: 100%;
+                height: auto;
+            }
+        }
+
+        @page {
+            size: letter;
+            margin: 0.4in;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="page">
+
+        <!-- ═══ HEADER ═══ -->
+        <div class="header">
+            <h1>Aman Kumar Shrivastava</h1>
+            <div class="header-contact">
+                <span class="label">Email:</span> <a href="mailto:amanshrivastava185@gmail.com">amanshrivastava185@gmail.com</a>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <span class="label">Phone:</span> +91-7417449521
+                <br>
+                <span class="label">LinkedIn:</span> <a href="https://linkedin.com/in/aman-shrivastava-9267a8364">Aman Shrivastava</a>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <span class="label">GitHub:</span> <a href="https://github.com/Aman-Kumar-Shrivastava">Aman-Kumar-Shrivastava</a>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <span class="label">LeetCode:</span> <a href="https://leetcode.com/u/Aman_shrivastava007/">Aman_shrivastava007</a>
+                <br>
+                <span class="availability">Available for Summer Internship — Mid-May 2026 onwards</span>
+            </div>
+        </div>
+
+        <!-- ═══ PROFESSIONAL SUMMARY ═══ -->
+        <div class="section">
+            <div class="section-title">Professional Summary</div>
+            <div style="font-size: 10px; text-align: justify; line-height: 1.4;">
+                Results-driven Computer Science student with an <strong>8.5 CGPA</strong>, specializing in creating impactful, user-friendly websites from scratch. Sped up project delivery by <strong>40%</strong> by smartly integrating practical AI tools like <strong>Antigravity Cloud Code, GitHub Copilot, Cursor IDE,</strong> and <strong>Gemini</strong>. Secured <strong>1st Place</strong> at the CodeGenX Hackathon and consistently demonstrated strong problem-solving skills by completing <strong>50+ coding challenges</strong> on LeetCode. Eager to bring measurable growth and fresh ideas as a Web Developer Intern at an innovative organization.
+            </div>
+        </div>
+
+        <!-- ═══ EDUCATION ═══ -->
+        <div class="section">
+            <div class="section-title">Education</div>
+
+            <div class="entry" style="margin-bottom: 4px;">
+                <div class="entry-row">
+                    <span class="entry-title">DIT University (Dehradun Institute of Technology)</span>
+                    <span class="entry-right">Dehradun, Uttarakhand</span>
+                </div>
+                <div class="entry-row">
+                    <span class="entry-subtitle">B.Tech — Computer Science Engineering (Artificial Intelligence &amp;
+                        Machine Learning). <strong style="font-style:normal;">CGPA: 8.5</strong></span>
+                    <span class="entry-right"><em>2025 – 2029</em></span>
+                </div>
+            </div>
+
+            <div class="entry" style="margin-bottom: 4px;">
+                <div class="entry-row">
+                    <span class="entry-title">Jim Corbett Senior Secondary School</span>
+                    <span class="entry-right">Haldwani, Uttarakhand</span>
+                </div>
+                <div class="entry-row">
+                    <span class="entry-subtitle">All India Senior School Certificate Examination (AISSCE), CBSE — PCM</span>
+                    <span class="entry-right"><em>Apr 2024 – Apr 2025</em></span>
+                </div>
+            </div>
+
+            <div class="entry" style="margin-bottom: 4px;">
+                <div class="entry-row">
+                    <span class="entry-title">BLM Academy</span>
+                    <span class="entry-right">Haldwani, Uttarakhand</span>
+                </div>
+                <div class="entry-row">
+                    <span class="entry-subtitle">All India Secondary School Examination (AISSE), CBSE</span>
+                    <span class="entry-right"><em>Apr 2022 – Apr 2023</em></span>
+                </div>
+            </div>
+        </div>
+
+        <!-- ═══ TECHNICAL SKILLS ═══ -->
+        <div class="section">
+            <div class="section-title">Skills &amp; Tools</div>
+            <div class="skills-grid">
+                <div class="skill-row"><strong>Programming:</strong> C, Python, Java, JavaScript, HTML, CSS</div>
+                <div class="skill-row"><strong>AI Assistants:</strong> Antigravity Cloud Code, GitHub Copilot, Cursor IDE, ChatGPT</div>
+                <div class="skill-row"><strong>Web Design:</strong> Responsive Layouts, User Interface Design, Web Accessibility</div>
+                <div class="skill-row"><strong>Software Tools:</strong> Git, GitHub, VS Code, Linux, Jupyter Notebook</div>
+                <div class="skill-row"><strong>Core Strengths:</strong> Problem Solving, Data Analysis, Software Testing</div>
+                <div class="skill-row"><strong>Soft Skills:</strong> Project Leadership, Team Collaboration, Clear Communication</div>
+            </div>
+        </div>
+
+        <!-- ═══ PROJECTS ═══ -->
+        <div class="section">
+            <div class="section-title">Projects &amp; Technical Work</div>
+
+            <div class="entry">
+                <div class="entry-row">
+                    <span class="entry-title">Fast Task Management Application</span>
+                    <span class="entry-right">HTML, CSS, JavaScript</span>
+                </div>
+                <ul class="bullets">
+                    <li>Built a custom task manager from scratch that loads instantly and saves user data securely without needing an external database or internet connection.</li>
+                    <li>Used AI tools <strong>like Antigravity Cloud Code and Copilot</strong> to quickly brainstorm visual designs and speed up the coding process, cutting down overall project time by <strong>35%</strong>.</li>
+                </ul>
+            </div>
+
+            <div class="entry">
+                <div class="entry-row">
+                    <span class="entry-title">Interactive Personal Portfolio</span>
+                    <span class="entry-right">Web Development</span>
+                </div>
+                <ul class="bullets">
+                    <li>Created a professional website that scored a <strong>perfect rating</strong> on Google's performance test, ensuring a smooth and accessible experience for all visitors.</li>
+                    <li>Set up a flexible website structure allowing instant content updates and added a smart "dark mode" that improves user reading comfort.</li>
+                </ul>
+            </div>
+
+            <div class="entry">
+                <div class="entry-row">
+                    <span class="entry-title">Live Environmental Monitoring System</span>
+                    <span class="entry-right">Python</span>
+                </div>
+                <ul class="bullets">
+                    <li>Developed an automated program to track live environmental data, setting up instant warnings whenever dangerous pollution levels are detected.</li>
+                    <li>Utilized <strong>Cursor IDE</strong> to rapidly connect and clean up live data feeds from external sources to ensure accurate readings.</li>
+                </ul>
+            </div>
+
+            <div class="entry">
+                <div class="entry-row">
+                    <span class="entry-title">Secure Records Database Simulator</span>
+                    <span class="entry-right">C Programming</span>
+                </div>
+                <ul class="bullets">
+                    <li>Engineered a highly reliable system to safely handle and store large amounts of data, guaranteeing <strong>zero data loss</strong> even during unexpected system errors.</li>
+                    <li>Partnered with AI to automatically generate complex testing scenarios, ensuring the system remains completely fail-proof under pressure.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- ═══ ACCOMPLISHMENTS ═══ -->
+        <div class="section">
+            <div class="section-title">Accomplishments</div>
+            <ul class="bullets">
+                <li><strong>1st Place Winner, CodeGenX Hackathon</strong> — Led a team to build and present a fully working software prototype within a strict 24-hour deadline, using AI tools like Antigravity Cloud Code to stay ahead of the competition.</li>
+                <li><strong>4th Position Nationally, DRDO DEAL</strong> — Successfully pitched and defended an innovative idea against top university teams across the country at a national defense exhibition.</li>
+                <li><strong>Consistent Problem Solver</strong> — Maintained a 50+ day streak solving complex logic puzzles on LeetCode, showing a deep commitment to improving critical thinking and logic.</li>
+                <li><strong>Active Committee Member</strong> — Organized major technology workshops and industry events for students as part of the university's IEEE chapter.</li>
+                <li><strong>Community Outreach Lead</strong> — Planned and ran large-scale social initiatives for the NSS, proving strong team management and coordination skills.</li>
+            </ul>
+        </div>
+
+        <!-- ═══ CERTIFICATIONS ═══ -->
+        <div class="section" style="margin-bottom: 0;">
+            <div class="section-title">Certifications &amp; Training</div>
+            <div class="cert-block">
+                <strong>2025:</strong> 1st Rank Hackathon Certificate — CodeGenX, DIT University
+                <br>
+                <strong>2025:</strong> Deloitte Virtual Internship (Generative AI experience) &nbsp;•&nbsp; Applied AI &amp; Data Workshop &nbsp;•&nbsp; Kali Linux
+                <br>
+                <strong>2026:</strong> freeCodeCamp Responsive Web Design &nbsp;•&nbsp; Git &amp; GitHub Mastery &nbsp;•&nbsp; Introduction to Machine Learning &nbsp;•&nbsp; Idea Presentation Certificate (DRDO) &nbsp;•&nbsp; JPMorgan chase & Co (software engineerng virtual internship)&nbsp;•&nbsp;DeepLearning.AI (neural network and deep Learning) &nbsp;•&nbsp;be10X Ai.&nbsp;•&nbsp;Hands on Ai automation + Kaggle
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        window.addEventListener('load', function () {
+            console.log('Resume loaded — Press Ctrl+P to print/save as PDF. Set margins to NONE for best results.');
+        });
+    </script>
+</body>
+
+</html>

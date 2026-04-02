@@ -1,0 +1,45 @@
+Aman Shrivastava
+Dehradun, Uttarakhand
+Phone: 7417449521
+Email: amanshrivastava185@gmail.com
+LinkedIn: linkedin.com/in/aman-shrivastava-9267a8364
+Summary
+Computer Science Engineering (AI & ML) student with strong foundation in programming and data
+structures. Passionate about building practical applications and improving problem-solving skills through
+hands-on coding. Interested in AI-driven and web-based solutions. Seeking opportunities to gain real-
+world development experience.
+Technical Skills
+Programming Languages:C, Python (basic), Java (basic)
+Data Structures:Arrays, Linked List, Stack, Queue, Searching, Sorting, Recursion
+Web Technologies:HTML, CSS, JavaScript (basic)
+Tools:Git, GitHub, VS Code
+Education
+DIT University, Dehradun
+B.Tech in Computer Science Engineering (AI & ML) 2023 – Present
+Jim Corbett Senior Secondary School (CBSE), Haldwani
+Class XII (PCM) 2025
+BLM Academy (CBSE), Haldwani
+Class X 2023
+Projects
+Student Management System (C)
+•Developed console-based system using C
+•Implemented add, delete, update, and search operations
+•Used arrays and file handling
+Portfolio Website (HTML, CSS)
+•Designed personal website to showcase skills and projects
+•Implemented responsive layout and clean UI
+Experience
+CodeGenX – Member, DehradunMar 2026 – Present
+•Participated in technical discussions and hackathons
+•Collaborated with team members on problem-solving tasks
+•Gained experience in teamwork and technical communication
+Certifications
+•Git & GitHub
+•Introduction to AI and Machine Learning
+1
+Achievements
+•1st Position – Hackathon organized by CodeGenX
+•4th Position – Idea Presentation Competition by DEAL (DRDO)
+Soft Skills
+Problem-solving, Logical thinking, Teamwork, Communication, Time management, Willingness to learn
+2
