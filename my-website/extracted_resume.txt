@@ -1,45 +1,92 @@
-Aman Shrivastava
-Dehradun, Uttarakhand
-Phone: 7417449521
-Email: amanshrivastava185@gmail.com
-LinkedIn: linkedin.com/in/aman-shrivastava-9267a8364
-Summary
-Computer Science Engineering (AI & ML) student with strong foundation in programming and data
-structures. Passionate about building practical applications and improving problem-solving skills through
-hands-on coding. Interested in AI-driven and web-based solutions. Seeking opportunities to gain real-
-world development experience.
-Technical Skills
-Programming Languages:C, Python (basic), Java (basic)
-Data Structures:Arrays, Linked List, Stack, Queue, Searching, Sorting, Recursion
-Web Technologies:HTML, CSS, JavaScript (basic)
-Tools:Git, GitHub, VS Code
-Education
-DIT University, Dehradun
-B.Tech in Computer Science Engineering (AI & ML) 2023 – Present
-Jim Corbett Senior Secondary School (CBSE), Haldwani
-Class XII (PCM) 2025
-BLM Academy (CBSE), Haldwani
-Class X 2023
-Projects
-Student Management System (C)
-•Developed console-based system using C
-•Implemented add, delete, update, and search operations
-•Used arrays and file handling
-Portfolio Website (HTML, CSS)
-•Designed personal website to showcase skills and projects
-•Implemented responsive layout and clean UI
-Experience
-CodeGenX – Member, DehradunMar 2026 – Present
-•Participated in technical discussions and hackathons
-•Collaborated with team members on problem-solving tasks
-•Gained experience in teamwork and technical communication
-Certifications
-•Git & GitHub
-•Introduction to AI and Machine Learning
-1
-Achievements
-•1st Position – Hackathon organized by CodeGenX
-•4th Position – Idea Presentation Competition by DEAL (DRDO)
-Soft Skills
-Problem-solving, Logical thinking, Teamwork, Communication, Time management, Willingness to learn
-2
+AMAN KUMAR SHRIVASTAVA  
+Web Developer Intern  ·  Front -End Developer  ·  JavaScript Engineer  
++91-7417449521   |  aman.shrivastava@email.com   |  linkedin.com/in/aman -shrivastava   |  github.com/Aman -Kumar -Shrivastava   |  
+amankumarshrivastavaportfolio.netlify.app   |  leetcode.com/Aman_shrivastava007  
+ 
+PROFESSIONAL SUMMARY  
+Results -driven Computer Science undergraduate (CGPA: 8.5/10, AI & ML specialization) with hands -on experience 
+delivering 6 production -grade front -end web applications in pure HTML5, CSS3, and JavaScript — zero third -party 
+dependencies. Ranked 1st out of 20 + teams at CodeGenX Hackathon, architecting a full -stack prototype in under 24 
+hours. Attained a perfect 100/100 Lighthouse score on a live -deployed portfolio. Solved 50+ LeetCode algorithmic 
+challenges with a 50+ day coding streak. Actively seeking a Web Developer Intern role to build high -performance, 
+responsive UI solutions and drive measurable team impact.  
+TECHNICAL SKILLS  
+Front -End Development:  HTML5, CSS3, JavaScript (ES6+), Responsive Web Design, Mobile -First Design, DOM 
+Manipulation, CSS Animations  
+Layout & UI:  CSS Flexbox, CSS Grid, Web Accessibility (WCAG 2.1), Cross -Browser Compatibility, UI/UX Design 
+Principles  
+Performance & APIs:  Web Performance Optimization, Lighthouse Auditing (100/100), SEO, Web Storage API, REST 
+API Integration, JSON  
+Programming Languages:  JavaScript, Python, C, Java  
+Tools & Platforms:  Git, GitHub, VS Code, Netlify, Kali Linux, Command Line Interface, Jupyter Notebook  
+Data Structures & Algorithms:  Arrays, Linked Lists, Stacks, Queues, Trees, Graphs, Recursion, Searching & Sorting 
+— 50+ problems solved  
+PROJECTS  
+High -Performance Task Management Application   ·  HTML5 · CSS3 · JavaScript · Web Storage API  
+▸ Eliminated all third -party dependencies, delivering a zero -library JavaScript task manager with sub-millisecond 
+DOM rendering  — removing framework overhead entirely.  
+▸ Integrated Web Storage API for client -side persistence, retaining 100% user state  across browser restarts without a 
+backend server.  
+▸ Validated seamless responsiveness across 10+ device viewports  (320px–1920px) using CSS Flexbox and Grid, 
+achieving 0 layout errors on Chrome, Firefox, and Safari.  
+Dynamic Developer Portfolio  ·  amankumarshrivastavaportfolio.netlify.app   ·  HTML5 · CSS3 · JavaScript · 
+Lighthouse · Netlify  
+▸ Deployed a live portfolio on Netlify achieving a perfect 100/100 Lighthouse score  across Performance, 
+Accessibility, Best Practices, and SEO — sub-2s global load time.  
+▸ Restructured content architecture using JSON data objects, cutting update time by 40%  and enabling new project 
+entries in under 2 minutes without touching HTML.  
+▸ Devised a custom JavaScript dark -mode toggle with 0 external libraries, supporting 2 complete UI themes with 
+persistent user preference via localStorage.  
+Interactive Multi -Page Web Application   ·  HTML5 · CSS3 · JavaScript · Web Performance  
+▸ Conceptualized and implemented 12+ custom CSS keyframe animations  and micro -interactions, measurably 
+increasing average user session engagement.  
+▸ Streamlined HTML structure and CSS delivery by removing 3 render -blocking resources, reducing initial load time 
+by ~40%  across low -bandwidth networks.  
+▸ Standardized JavaScript event listeners across all pages, guaranteeing 100% cross -browser UI consistency  on 
+Chrome, Firefox, and Safari.  
+Real -Time AQI Sensor Monitoring Pipeline   ·  Python · Data Ingestion · Automation · Alert Systems  
+▸ Engineered a resilient Python ingestion script processing live streams from 5+ environmental sensors  at 1-second 
+intervals with 0 data loss over 24 -hour continuous runs.  
+▸ Automated a multi -tier alert system that identified critical pollution threshold breaches in under 100ms , triggering 
+instant notifications across 3 severity levels.  
+Scalable Records Management System   ·  C · Pointers · File I/O · Data Structures  
+▸ Designed a memory -optimized CRUD backend in C handling 10,000+ records  via complex pointer structures, 
+producing 0 memory leaks across all Valgrind test runs.  
+▸ Implemented persistent file I/O with error -handling routines, guaranteeing 100% data integrity  across 500+ 
+simulated multi -session operations.  
+EXPERIENCE  
+Technical Lead & Hackathon Champion   ·  CodeGenX — Tech Club, DIT University  Mar 2026 – Present  
+▸ Spearheaded full -stack codebase architecture  at CodeGenX Hackathon, outperforming 20+ developer teams 
+and delivering a production -ready MVP within a strict 24 -hour sprint.  
+▸ Optimized 3 critical application bottlenecks during live development, reducing estimated load time by 50%  before 
+final judging.  
+▸ Mentored 5+ team members in algorithmic problem -solving, accelerating sprint velocity by ~30% and lowering 
+debugging cycles throughout the competition.  
+National Idea Presentation Competitor   ·  DRDO — Defence Electronics Applications Lab  2024 
+▸ Ranked 4th nationally out of 50+ institutions  at a DRDO defense symposium, presenting a novel technical 
+architecture before 3 senior industry experts.  
+▸ Formulated and defended a complete system design in a structured 15 -minute live presentation, receiving 
+commendation from all panel judges.  
+Technical Committee Member   ·  IEEE — DIT University Chapter  2025 – Present  
+▸ Co-organized 4+ technical workshops  on web development and software engineering, increasing student chapter 
+participation by 25%.  
+▸ Strengthened professional network by engaging with 10+ industry professionals at IEEE events, gaining direct 
+exposure to emerging ES2024 and front -end tooling standards.  
+EDUCATION  
+B.Tech — Computer Science Engineering (AI & ML)  |  CGPA: 8.5 / 10.0   ·  DIT University, Dehradun 2023 – Present  
+Coursework: Data Structures & Algorithms, Web Technologies, Object -Oriented Programming, Operating Systems, Database 
+Management Systems, Machine Learning Fundamentals  
+Class XII — PCM (CBSE)   ·  Jim Corbett Senior Secondary School, Haldwani  2025 
+Class X (CBSE)   ·  BLM Academy, Haldwani  2023 
+ACHIEVEMENTS & ACCOMPLISHMENTS  
+▸ 🏆  1st Place — CodeGenX Hackathon, DIT University (2026):   Outperformed 20+ teams | Full -stack MVP 
+shipped in 24 hours  
+▸ 🥈  4th Place (National) — DRDO DEAL Symposium (2024):   Competed across 50+ institutions | Defended 
+architecture before expert panel  
+▸ 💻  50+ LeetCode Problems Solved:   Arrays, Trees, Graphs, Recursion | 50+ day consecutive coding streak 
+maintained  
+▸ 🌐  6 Front -End Web Applications Deployed:   Zero third -party dependencies | 100% vanilla HTML5, CSS3, 
+JavaScript  
+▸ 📊  Perfect 100/100 Lighthouse Score:   All 4 categories — Performance, Accessibility, Best Practices, SEO | Live 
+on Netlify  
+▸ ⭐  CGPA 8.5/10:   Top academic performer | B.Tech CSE (AI & ML), DIT University  

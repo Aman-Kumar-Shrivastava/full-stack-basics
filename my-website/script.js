@@ -18,7 +18,7 @@ const projects = [
     title: "Multi-Function To-Do List",
     desc: "Feature-rich task manager with add, edit, delete, priority tagging, and local storage persistence. Fully responsive UI.",
     tech: ["HTML/CSS", "JavaScript"],
-    github: "https://github.com/Aman-Kumar-Shrivastava",
+    github: "https://amankumarshrivastavaportfolio.netlify.app/",
     demo: "",
     image: "images/todo.webp" // Replace with real image path
   },

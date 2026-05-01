@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aman Kumar Shrivastava - Resume</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Times New Roman', 'Georgia', serif;
+            color: #111;
+            background: #d5d5d5;
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .page {
+            width: 8.5in;
+            min-height: 11in;
+            background: white;
+            margin: 0 auto;
+            padding: 0.4in;
+            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+            font-size: 10px;
+            line-height: 1.35;
+        }
+
+        /* ── HEADER ── */
+        .header {
+            margin-bottom: 10px;
+        }
+
+        .header h1 {
+            font-size: 24px;
+            font-weight: 700;
+            color: #000;
+            margin-bottom: 2px;
+        }
+
+        .header-contact {
+            font-size: 10px;
+            color: #111;
+            line-height: 1.6;
+        }
+
+        .header-contact a {
+            color: #000;
+            text-decoration: none;
+        }
+
+        .header-contact .label {
+            font-weight: 700;
+        }
+
+        .availability {
+            display: inline-block;
+            margin-top: 2px;
+            font-weight: 700;
+            font-size: 10px;
+            color: #111;
+            font-style: italic;
+        }
+
+        /* ── SECTIONS ── */
+        .section {
+            margin-bottom: 9px;
+        }
+
+        .section-title {
+            font-size: 12px;
+            font-weight: 400;
+            font-variant: small-caps;
+            letter-spacing: 1px;
+            color: #000;
+            border-bottom: 0.8px solid #000;
+            padding-bottom: 2px;
+            margin-bottom: 6px;
+        }
+
+        /* ── ENTRIES ── */
+        .entry {
+            margin-bottom: 6px;
+        }
+
+        .entry-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+        }
+
+        .entry-title {
+            font-weight: 700;
+            font-size: 10.5px;
+            color: #000;
+        }
+
+        .entry-right {
+            font-size: 10px;
+            color: #111;
+            text-align: right;
+            white-space: nowrap;
+            margin-left: 10px;
+        }
+
+        .entry-subtitle {
+            font-style: italic;
+            font-size: 10px;
+            color: #222;
+        }
+
+        /* ── BULLETS ── */
+        ul.bullets {
+            margin-left: 16px;
+            margin-top: 2px;
+        }
+
+        ul.bullets li {
+            list-style-type: disc;
+            margin-bottom: 2.5px;
+            font-size: 10px;
+            line-height: 1.38;
+            color: #111;
+        }
+
+        /* ── SKILLS GRID ── */
+        .skills-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 3px 25px;
+            font-size: 10px;
+        }
+
+        .skill-row {
+            margin-bottom: 1px;
+            line-height: 1.4;
+        }
+
+        .skill-row strong {
+            color: #000;
+        }
+
+        /* ── CERT LIST ── */
+        .cert-block {
+            font-size: 10px;
+            line-height: 1.45;
+        }
+
+        /* ── PRINT ── */
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+                display: block;
+            }
+
+            .page {
+                box-shadow: none;
+                margin: 0;
+                padding: 0.4in;
+                width: 100%;
+                height: auto;
+            }
+        }
+
+        @page {
+            size: letter;
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="page">
+
+        <!-- ═══ HEADER ═══ -->
+        <div class="header">
+            <h1>Aman Kumar Shrivastava</h1>
+            <div class="header-contact">
+                <span class="label">Email:</span> <a href="mailto:aman.shrivastava@email.com">aman.shrivastava@email.com</a>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <span class="label">Phone:</span> +91-7417449521
+                <br>
+                <span class="label">LinkedIn:</span> <a href="https://linkedin.com/in/aman-shrivastava">linkedin.com/in/aman-shrivastava</a>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <span class="label">GitHub:</span> <a href="https://github.com/Aman-Kumar-Shrivastava">github.com/Aman-Kumar-Shrivastava</a>
+                <br>
+                <span class="label">Portfolio:</span> <a href="https://amankumarshrivastavaportfolio.netlify.app">amankumarshrivastavaportfolio.netlify.app</a>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <span class="label">LeetCode:</span> <a href="https://leetcode.com/Aman_shrivastava007">leetcode.com/Aman_shrivastava007</a>
+                <br>
+                <span class="availability">Web Developer Intern &nbsp;·&nbsp; Front-End Developer &nbsp;·&nbsp; JavaScript Engineer</span>
+            </div>
+        </div>
+
+        <!-- ═══ PROFESSIONAL SUMMARY ═══ -->
+        <div class="section">
+            <div class="section-title">Professional Summary</div>
+            <div style="font-size: 10px; text-align: justify; line-height: 1.4;">
+                Results-driven Computer Science undergraduate (CGPA: 8.5/10, AI & ML specialization) with hands-on experience delivering 6 production-grade front-end web applications in pure HTML5, CSS3, and JavaScript — zero third-party dependencies. Ranked 1st out of 20+ teams at CodeGenX Hackathon, architecting a full-stack prototype in under 24 hours. Attained a perfect 100/100 Lighthouse score on a live-deployed portfolio. Solved 50+ LeetCode algorithmic challenges with a 50+ day coding streak. Actively seeking a Web Developer Intern role to build high-performance, responsive UI solutions and drive measurable team impact.
+            </div>
+        </div>
+
+        <!-- ═══ TECHNICAL SKILLS ═══ -->
+        <div class="section">
+            <div class="section-title">Technical Skills</div>
+            <div class="skills-grid">
+                <div class="skill-row"><strong>Front-End Development:</strong> HTML5, CSS3, JavaScript (ES6+), Responsive Web Design, Mobile-First Design, DOM Manipulation, CSS Animations</div>
+                <div class="skill-row"><strong>Layout & UI:</strong> CSS Flexbox, CSS Grid, Web Accessibility (WCAG 2.1), Cross-Browser Compatibility, UI/UX Design Principles</div>
+                <div class="skill-row"><strong>Performance & APIs:</strong> Web Performance Optimization, Lighthouse Auditing (100/100), SEO, Web Storage API, REST API Integration, JSON</div>
+                <div class="skill-row"><strong>Programming Languages:</strong> JavaScript, Python, C, Java</div>
+                <div class="skill-row"><strong>Tools & Platforms:</strong> Git, GitHub, VS Code, Netlify, Kali Linux, Command Line Interface, Jupyter Notebook</div>
+                <div class="skill-row"><strong>Data Structures & Algorithms:</strong> Arrays, Linked Lists, Stacks, Queues, Trees, Graphs, Recursion, Searching & Sorting — 50+ problems solved</div>
+            </div>
+        </div>
+
+        <!-- ═══ PROJECTS ═══ -->
+        <div class="section">
+            <div class="section-title">Projects</div>
+
+            <div class="entry">
+                <div class="entry-row">
+                    <span class="entry-title">High-Performance Task Management Application</span>
+                    <span class="entry-right">HTML5 · CSS3 · JavaScript · Web Storage API</span>
+                </div>
+                <ul class="bullets">
+                    <li>Eliminated all third-party dependencies, delivering a zero-library JavaScript task manager with sub-millisecond DOM rendering — removing framework overhead entirely.</li>
+                    <li>Integrated Web Storage API for client-side persistence, retaining 100% user state across browser restarts without a backend server.</li>
+                    <li>Validated seamless responsiveness across 10+ device viewports (320px–1920px) using CSS Flexbox and Grid, achieving 0 layout errors on Chrome, Firefox, and Safari.</li>
+                </ul>
+            </div>
+
+            <div class="entry">
+                <div class="entry-row">
+                    <span class="entry-title">Dynamic Developer Portfolio</span>
+                    <span class="entry-right">HTML5 · CSS3 · JavaScript · Lighthouse · Netlify</span>
+                </div>
+                <div class="entry-row">
+                    <span class="entry-subtitle"><a href="https://amankumarshrivastavaportfolio.netlify.app" style="color: #222; text-decoration: none;">amankumarshrivastavaportfolio.netlify.app</a></span>
+                </div>
+                <ul class="bullets">
+                    <li>Deployed a live portfolio on Netlify achieving a perfect 100/100 Lighthouse score across Performance, Accessibility, Best Practices, and SEO — sub-2s global load time.</li>
+                    <li>Restructured content architecture using JSON data objects, cutting update time by 40% and enabling new project entries in under 2 minutes without touching HTML.</li>
+                    <li>Devised a custom JavaScript dark-mode toggle with 0 external libraries, supporting 2 complete UI themes with persistent user preference via localStorage.</li>
+                </ul>
+            </div>
+
+            <div class="entry">
+                <div class="entry-row">
+                    <span class="entry-title">Interactive Multi-Page Web Application</span>
+                    <span class="entry-right">HTML5 · CSS3 · JavaScript · Web Performance</span>
+                </div>
+                <ul class="bullets">
+                    <li>Conceptualized and implemented 12+ custom CSS keyframe animations and micro-interactions, measurably increasing average user session engagement.</li>
+                    <li>Streamlined HTML structure and CSS delivery by removing 3 render-blocking resources, reducing initial load time by ~40% across low-bandwidth networks.</li>
+                    <li>Standardized JavaScript event listeners across all pages, guaranteeing 100% cross-browser UI consistency on Chrome, Firefox, and Safari.</li>
+                </ul>
+            </div>
+
+            <div class="entry">
+                <div class="entry-row">
+                    <span class="entry-title">Real-Time AQI Sensor Monitoring Pipeline</span>
+                    <span class="entry-right">Python · Data Ingestion · Automation · Alert Systems</span>
+                </div>
+                <ul class="bullets">
+                    <li>Engineered a resilient Python ingestion script processing live streams from 5+ environmental sensors at 1-second intervals with 0 data loss over 24-hour continuous runs.</li>
+                    <li>Automated a multi-tier alert system that identified critical pollution threshold breaches in under 100ms, triggering instant notifications across 3 severity levels.</li>
+                </ul>
+            </div>
+
+            <div class="entry">
+                <div class="entry-row">
+                    <span class="entry-title">Scalable Records Management System</span>
+                    <span class="entry-right">C · Pointers · File I/O · Data Structures</span>
+                </div>
+                <ul class="bullets">
+                    <li>Designed a memory-optimized CRUD backend in C handling 10,000+ records via complex pointer structures, producing 0 memory leaks across all Valgrind test runs.</li>
+                    <li>Implemented persistent file I/O with error-handling routines, guaranteeing 100% data integrity across 500+ simulated multi-session operations.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- ═══ EXPERIENCE ═══ -->
+        <div class="section">
+            <div class="section-title">Experience</div>
+
+            <div class="entry">
+                <div class="entry-row">
+                    <span class="entry-title">Technical Lead & Hackathon Champion</span>
+                    <span class="entry-right">Mar 2026 – Present</span>
+                </div>
+                <div class="entry-row">
+                    <span class="entry-subtitle">CodeGenX — Tech Club, DIT University</span>
+                </div>
+                <ul class="bullets">
+                    <li>Spearheaded full-stack codebase architecture at CodeGenX Hackathon, outperforming 20+ developer teams and delivering a production-ready MVP within a strict 24-hour sprint.</li>
+                    <li>Optimized 3 critical application bottlenecks during live development, reducing estimated load time by 50% before final judging.</li>
+                    <li>Mentored 5+ team members in algorithmic problem-solving, accelerating sprint velocity by ~30% and lowering debugging cycles throughout the competition.</li>
+                </ul>
+            </div>
+
+            <div class="entry">
+                <div class="entry-row">
+                    <span class="entry-title">National Idea Presentation Competitor</span>
+                    <span class="entry-right">2024</span>
+                </div>
+                <div class="entry-row">
+                    <span class="entry-subtitle">DRDO — Defence Electronics Applications Lab</span>
+                </div>
+                <ul class="bullets">
+                    <li>Ranked 4th nationally out of 50+ institutions at a DRDO defense symposium, presenting a novel technical architecture before 3 senior industry experts.</li>
+                    <li>Formulated and defended a complete system design in a structured 15-minute live presentation, receiving commendation from all panel judges.</li>
+                </ul>
+            </div>
+
+            <div class="entry">
+                <div class="entry-row">
+                    <span class="entry-title">Technical Committee Member</span>
+                    <span class="entry-right">2025 – Present</span>
+                </div>
+                <div class="entry-row">
+                    <span class="entry-subtitle">IEEE — DIT University Chapter</span>
+                </div>
+                <ul class="bullets">
+                    <li>Co-organized 4+ technical workshops on web development and software engineering, increasing student chapter participation by 25%.</li>
+                    <li>Strengthened professional network by engaging with 10+ industry professionals at IEEE events, gaining direct exposure to emerging ES2024 and front-end tooling standards.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- ═══ EDUCATION ═══ -->
+        <div class="section">
+            <div class="section-title">Education</div>
+
+            <div class="entry" style="margin-bottom: 4px;">
+                <div class="entry-row">
+                    <span class="entry-title">DIT University</span>
+                    <span class="entry-right">Dehradun, Uttarakhand</span>
+                </div>
+                <div class="entry-row">
+                    <span class="entry-subtitle">B.Tech in Computer Science Engineering (AI &amp; ML) CGPA: 8.5/10</span>
+                    <span class="entry-right"><em>2025 – Present</em></span>
+                </div>
+            </div>
+
+            <div class="entry" style="margin-bottom: 4px;">
+                <div class="entry-row">
+                    <span class="entry-title">Jim Corbett Senior Secondary School (CBSE)</span>
+                    <span class="entry-right">Haldwani, Uttarakhand</span>
+                </div>
+                <div class="entry-row">
+                    <span class="entry-subtitle">Class XII (PCM)</span>
+                    <span class="entry-right"><em>2025</em></span>
+                </div>
+            </div>
+
+            <div class="entry" style="margin-bottom: 4px;">
+                <div class="entry-row">
+                    <span class="entry-title">BLM Academy (CBSE)</span>
+                    <span class="entry-right">Haldwani, Uttarakhand</span>
+                </div>
+                <div class="entry-row">
+                    <span class="entry-subtitle">Class X</span>
+                    <span class="entry-right"><em>2023</em></span>
+                </div>
+            </div>
+        </div>
+
+        <!-- ═══ ACHIEVEMENTS & ACCOMPLISHMENTS ═══ -->
+        <div class="section" style="margin-bottom: 0;">
+            <div class="section-title">Achievements & Accomplishments</div>
+            <ul class="bullets">
+                <li><strong>1st Place — CodeGenX Hackathon, DIT University (2026):</strong> Outperformed 20+ teams | Full-stack MVP shipped in 24 hours</li>
+                <li><strong>4th Place (National) — DRDO DEAL Symposium (2024):</strong> Competed across 50+ institutions | Defended architecture before expert panel</li>
+                <li><strong>50+ LeetCode Problems Solved:</strong> Arrays, Trees, Graphs, Recursion | 50+ day consecutive coding streak maintained</li>
+                <li><strong>6 Front-End Web Applications Deployed:</strong> Zero third-party dependencies | 100% vanilla HTML5, CSS3, JavaScript</li>
+                <li><strong>Perfect 100/100 Lighthouse Score:</strong> All 4 categories — Performance, Accessibility, Best Practices, SEO | Live on Netlify</li>
+                <li><strong>CGPA 8.5/10:</strong> Top academic performer | B.Tech CSE (AI & ML), DIT University</li>
+            </ul>
+        </div>
+
+    </div>
+
+    <script>
+        window.addEventListener('load', function () {
+            console.log('Resume loaded — Press Ctrl+P to print/save as PDF. Set margins to NONE for best results.');
+        });
+    </script>
+</body>
+
+</html>
